@@ -13,6 +13,6 @@
 ```
 - 最后再关闭防火墙,保持关闭且不开机启动
 ```
-systemctl stop firewalld && systemctl disable firewalld。
+systemctl stop firewalld && systemctl disable firewalld
 ```
 - OK，这样两个节点就能够互相访问了，而且使用桥接模式还可以通过外部的主机xshell连接两个虚拟机节点，方便操作。
